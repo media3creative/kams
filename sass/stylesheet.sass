@@ -5,6 +5,12 @@
 	font-weight: normal
 	font-style: normal
 @font-face
+	font-family: Chinese
+	src: url('/fonts/chinesetakeaway-webfont.eot')
+	src: url('/fonts/chinesetakeaway-webfont.eot?#iefix') format('embedded-opentype'),url('/fonts/chinesetakeaway-webfont.woff') format('woff'),url('/fonts/chinesetakeaway-webfont.ttf') format('truetype'),url('/fonts/chinesetakeaway-webfont.svg#embedfont-1Medium') format('svg')
+	font-weight: normal
+	font-style: normal
+@font-face
 	font-family: Helvetica_light
 	src: url(/fonts/helvetica_light.ttf) format("truetype")
 	
@@ -181,26 +187,41 @@ html
 body
 	background-color: #000000
 h1
-	font-family: "TrajanPro-Regular"
+	font-family: Chinese
 	font-size: 30px
+	letter-spacing: 0.3em
 	color: white
+	margin-top: 15px
 	margin-left: 30px
 	opacity: 1
 	font-weight: 100
 h2
-	font-family: "TrajanPro-Regular"
+	font-family: TrajanPro-Regular
 	font-size: 16px
-	color: #E6e6e6
+	color: #931616
 	margin: 0px
-	margin-left: 10px
+	margin-top: 20px
+	margin-left: 30px
+	opacity: 1
+	border-bottom: thin solid #931616
+	margin-right: 30px
+h3
+	font-family: Helvetica_light
+	font-size: 14px
+	color: #333333
+	margin: 0px
+	margin-top: 10px
+	margin-left: 30px
+	letter-spacing: 0.1em
 	opacity: 1
 p
-	color: white
+	color: black
 	opacity: 1
 	//margin: 20px
-	margin-left: 20px
+	margin-left: 30px
+	margin-right: 15px
 	//font-size: 12px
-	letter-spacing: 0.1em
+	letter-spacing: 0.075em
 	font-family: Helvetica_light
 img
 	border: 2px solid white
@@ -219,18 +240,19 @@ td
 .content-container
 
 
-#homePage, #venuePage, #galleryPage, #reservationPage, #calendarPage, #happyHourPage, #menuPage-1, #menuPage-2, #menuPage-3, #menuPage-4, #menuPage-5, #menuPage-6, #contactPage-1, #contactPage-2
+#page1, #page2, #page3, #page4, #page5
 	position: absolute
-	padding: 10px
 	z-index: 1
 	display: block
 	top: 200px
 	left: 370px
-	padding: 20px
-	width: 500px
+	width: 700px
 	height: auto
 	//overflow: auto
 	font-size: 12px
+	box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.80)
+	-moz-box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.80)
+	-webkit-box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.80)
 .scroller
 	padding: 20px
 	position: absolute
@@ -261,7 +283,7 @@ td
 	border-style: solid
 	border-width: 0.7px
 	border-color: #383733
-	background: url(/images/bg_pattern.jpg)
+	background: url(/images/bg_pattern2.png)
 	height: auto
 .close-content
 	//width: 50px
@@ -315,3 +337,17 @@ td
 	color: white
 	font-family: "TrajanPro-Regular"
 	font-size: 14px
+.title
+	float: left
+	position: relative
+	text-align: center
+	margin: 0px
+	margin-top: -5px
+	background-color: #931616
+	height: auto
+	min-height: 2px
+	width: 700px
+.column
+	width: 350px
+	float: left
+	margin-bottom: 10px
