@@ -205,6 +205,17 @@
   color: #696969;
 }
 
+.downloadLink {
+  margin-top: 10px;
+  color: #931616;
+  font-family: "TrajanPro-Regular";
+  font-size: 12px;
+}
+
+.downloadlink :hover {
+  color: #696969;
+}
+
 .phone-num {
   color: white;
   font-size: 14px;
@@ -244,13 +255,13 @@ h2 {
 }
 
 h3 {
-  font-family: Helvetica_light;
-  font-size: 14px;
+  font-family: TrajanPro-Regular;
+  font-size: 13px;
   color: #333333;
   margin: 0px;
   margin-top: 10px;
   margin-left: 30px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.075em;
   opacity: 1;
 }
 
@@ -363,7 +374,7 @@ td {
 }
 
 .normal-list {
-  color: #cccccc;
+  color: black;
   font-family: "TrajanPro-Regular";
   line-height: 25px;
 }
@@ -389,13 +400,13 @@ td {
 .download {
   color: white;
   font-family: "TrajanPro-Regular";
-  font-size: 15px;
+  font-size: 13px;
   margin: 20px;
 }
 
 .normal li {
-  color: white;
-  font-family: "TrajanPro-Regular";
+  color: black;
+  font-family: Helvetica_light;
   font-size: 14px;
 }
 
